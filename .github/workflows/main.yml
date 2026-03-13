@@ -1,5 +1,5 @@
 name: Hello Github Actions
-on: [push]branch_protection_rule: 
+on: [push]
 
 jobs:
   say_hello:
