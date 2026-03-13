@@ -1,0 +1,11 @@
+name: Hello Github Actions
+on: [push]branch_protection_rule: 
+
+jobs:
+  say_hello:
+    run-on: ubuntu-test
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v3
+      - name: Print Hello
+        run: echo "Xin chào, code đã lên"
