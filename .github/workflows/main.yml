@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   say_hello:
-    run-on: ubuntu-test
+    runs-on: ubuntu-test
     steps:
       - name: checkout code
         uses: actions/checkout@v3
